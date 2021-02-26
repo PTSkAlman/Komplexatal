@@ -20,7 +20,7 @@ public class KomplexTest {
             System.out.println("add funkar!!");
         }
 
-        c = a.multiply(b);
+        /*c = a.multiply(b);
         d = new Komplex(10,11);
 
         System.out.println(c);
@@ -31,6 +31,6 @@ public class KomplexTest {
         System.out.println("Argumentet till 3+2i är " + a.arg());
         if (a.arg() == Math.atan(2.0/3)) {
             System.out.println("arg() funkar!!");
-        }
+        }*/
     }
 }
