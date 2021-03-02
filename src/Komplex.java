@@ -18,4 +18,9 @@ public class Komplex {
         double addIm = this.Im + komplex.Im;
         return new Komplex(addRe, addIm);
     }
+    public Komplex multiply (Komplex komplex) {
+        double multRe = this.Re*komplex.Re;
+        double multIm = this.Im*komplex.Im;
+        return new Komplex(multRe, multIm);
+    }
 }
