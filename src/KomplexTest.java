@@ -12,13 +12,13 @@ public class KomplexTest {
 
         System.out.println("talet borde vara 3 + 2i:\n" + a);
 
-        Komplex c = a.add(b);
+        /*Komplex c = a.add(b);
         Komplex d = new Komplex(7,3);
 
         System.out.println(c);
         if (c.equals(d)) {
             System.out.println("add funkar!!");
-        }
+        }*/
 
         /*c = a.multiply(b);
         d = new Komplex(10,11);

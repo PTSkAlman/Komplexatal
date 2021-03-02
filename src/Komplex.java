@@ -7,11 +7,15 @@ public class Komplex {
         Re = r;
         Im = i;
     }
+
     @Override
     public String toString() {
         return Re + " + " + Im + "i";
     }
-    public void add (Komplex komplex) {
 
+    public Komplex add (Komplex komplex) {
+        double addRe = this.Re + komplex.Re;
+        double addIm = this.Im + komplex.Im;
+        return new Komplex(addRe, addIm);
     }
 }
