@@ -14,11 +14,11 @@ public class KomplexTest {
 
         Komplex c = a.add(b);
         Komplex d = new Komplex(7,3);
-/*
+
         System.out.println(c);
         if (c.equals(d)) {
             System.out.println("add funkar!!");
-        }*/
+        }
 
         c = a.multiply(b);
         d = new Komplex(10,11);
@@ -27,10 +27,11 @@ public class KomplexTest {
         if (c.equals(d)) {
             System.out.println("multiply funkar!!");
         }
-/*
+
+
         System.out.println("Argumentet till 3+2i är " + a.arg());
         if (a.arg() == Math.atan(2.0/3)) {
             System.out.println("arg() funkar!!");
-        }*/
+        }
     }
 }
